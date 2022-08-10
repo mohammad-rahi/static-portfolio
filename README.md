@@ -1,4 +1,4 @@
-![Mohammad Rahi](https://github.com/mohammad-rahi/mohammad-rahi/blob/9db915f0170a7a1b88bb0b681310ef4865e514c4/1659851311115.jfif)
+![Mohammad Rahi](https://github.com/mohammad-rahi/mohammad-rahi/blob/main/assets/img/readme_img.jfif)
 ## Hi there 👋, Greetings from Mohammad Rahi
 
 I'm a skilled front-end developer. I'm passionate to work with JavaScript, HTML5, and CSS3. With these front-end technologies, I can design any type of website as you like.
