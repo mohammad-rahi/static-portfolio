@@ -588,6 +588,15 @@ h2 span {
         height: 295px !important;
     }
 
+.skill{
+  width: 150px;
+  height: 150px;
+}
+
+.skill i{
+  font-size: 4rem;
+}
+
     .contact_info{
         display: flex;
         justify-content: center;
