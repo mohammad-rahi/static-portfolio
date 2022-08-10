@@ -208,10 +208,6 @@ h2 span {
     color: var(--clr-gray);
 }
 
-.about_img {
-    border-radius: 50%;
-}
-
 .about_img img {
     max-width: 400px;
     height: 400px;
@@ -548,6 +544,7 @@ h2 span {
         top: auto !important;
         width: 100%;
         z-index: 100;
+        box-shadow: 1px 0 4px 0 rgba(0, 0, 0, .1);
     }
 
     .nav_menu {
@@ -578,8 +575,39 @@ h2 span {
         margin: 0;
     }
 
+    .social_top a{
+        font-size: 1.5rem;
+    }
+
     .about_img, .about_img img{
-        max-width: 320px;
-        height: 320px;
+        max-width: 300px !important;
+        height: 300px !important;
+    }
+
+    .contact_info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap !important;
+        overflow: hidden;
+    }
+
+    .contact_info p{
+        font-size: .9rem !important;
+    }
+    .contact_info p i{
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .social_top{
+        gap: 0;
+        right: 1rem;
+        bottom: 1rem;
+    }
+
+    .social_contact a{
+        font-size: 1.5rem;
     }
 }
