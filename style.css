@@ -29,6 +29,13 @@
     }
 }
 
+@media only screen and (max-width: 576px) {
+    :root {
+        --big-font-size: 2.5rem;
+        --h2-font-size: 1rem;
+    }
+}
+
 /*===== Global Styles =====*/
 *,
 *::after,
@@ -571,8 +578,8 @@ h2 span {
         margin: 0;
     }
 
-    .about_img img{
-        max-width: 360px;
-        height: 360px;
+    .about_img, .about_img img{
+        max-width: 320px;
+        height: 320px;
     }
 }
