@@ -507,13 +507,13 @@ h2 span {
     }
 
     .project{
-        height: 350px !important;
+        height: 200px !important;
     }
 
     .project>div {
         width: 100% !important;
         min-width: 380px;
-        height: 350px !important;
+        height: 200px !important;
     }
 
     .project img {
@@ -538,10 +538,10 @@ h2 span {
 
     aside {
         height: 60px;
-        bottom: 0 !important;
+        /* bottom: 0 !important; */
         left: 0;
         right: 0;
-        top: auto !important;
+        /* top: auto !important; */
         width: 100%;
         z-index: 100;
         box-shadow: 1px 0 4px 0 rgba(0, 0, 0, .1);
@@ -580,8 +580,8 @@ h2 span {
     }
 
     .about_img, .about_img img{
-        max-width: 300px !important;
-        height: 300px !important;
+        max-width: 295px !important;
+        height: 295px !important;
     }
 
     .contact_info{
