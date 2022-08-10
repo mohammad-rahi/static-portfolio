@@ -579,6 +579,10 @@ h2 span {
         font-size: 1.5rem;
     }
 
+    h2{
+        font-size: 2rem;
+    }
+
     .about_img, .about_img img{
         max-width: 295px !important;
         height: 295px !important;
