@@ -100,7 +100,6 @@ aside {
 }
 
 .nav_menu a {
-    display: inline-block;
     width: 120px;
     height: 120px;
     display: grid;
@@ -592,6 +591,9 @@ h2 span {
     .nav_menu a {
         width: 100% !important;
         height: 55px !important;
+        display: flex;
+        justify-content: center;
+        align-item: center;
     }
 
     .nav_menu a span {
