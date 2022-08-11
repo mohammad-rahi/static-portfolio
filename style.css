@@ -595,7 +595,8 @@ h2 span {
     }
 
     .nav_menu a span {
-        display: none !important;
+        /* display: none !important; */
+        font-size: .7rem;
     }
 
     .nav_menu a i {
