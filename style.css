@@ -300,6 +300,10 @@ h2 span {
     color: #f2db1d;
 }
 
+.fa-react{
+    color: #00d4f9;
+}
+
 .fa-bootstrap {
     color: #7711f5;
 }
@@ -314,6 +318,16 @@ h2 span {
 
 .skill p {
     font-size: 1.1rem;
+}
+
+.canva img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 0;
+}
+
+.canva p{
+    margin-top: -2.1rem;
 }
 
 /*===== Projects =====*/
