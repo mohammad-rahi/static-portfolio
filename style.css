@@ -565,7 +565,7 @@ h2 span {
     }
 
     aside {
-        height: 60px;
+        height: 55px;
         /* bottom: 0 !important; */
         left: 0;
         right: 0;
@@ -591,15 +591,16 @@ h2 span {
 
     .nav_menu a {
         width: 100% !important;
-        height: 60px !important;
+        height: 55px !important;
     }
 
     .nav_menu a span {
         font-size: .7rem;
+        margin-top: 5px;
     }
 
     .nav_menu a i {
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
         margin: 0;
     }
 
