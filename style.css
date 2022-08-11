@@ -594,6 +594,7 @@ h2 span {
         display: flex;
         justify-content: center;
         align-item: center;
+        flex-direction: column;
     }
 
     .nav_menu a span {
