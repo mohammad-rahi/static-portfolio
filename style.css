@@ -607,6 +607,14 @@ h2 span {
         font-size: 1.5rem;
     }
 
+ #hero h1 span::before {
+    text-shadow: 0 -6rem 5px rgba(0, 0, 0, .2);
+}
+
+#hero h1 span::after {
+    text-shadow: 0 6rem 5px rgba(0, 0, 0, .2);
+}
+
     h2 {
         font-size: 2rem;
     }
