@@ -595,6 +595,7 @@ h2 span {
 
     .nav_menu a span {
         font-size: .7rem;
+        margin-bottom: -5px;
     }
 
     .nav_menu a i {
