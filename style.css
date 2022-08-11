@@ -591,15 +591,10 @@ h2 span {
     .nav_menu a {
         width: 100% !important;
         height: 55px !important;
-        display: flex;
-        justify-content: center;
-        align-item: center;
-        flex-direction: column;
     }
 
     .nav_menu a span {
         font-size: .7rem;
-        margin-top: 5px;
     }
 
     .nav_menu a i {
