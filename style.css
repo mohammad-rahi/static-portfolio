@@ -46,6 +46,11 @@
     padding: 0;
 }
 
+::selection {
+    background-color: var(--clr-red);
+    color: var(--clr-light);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -64,6 +69,9 @@ h2 {
 
 a {
     text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
     transition: var(--transition);
 }
 
@@ -230,8 +238,6 @@ h2 span {
     justify-content: center !important;
     align-items: center;
     line-height: 28px;
-    user-select: none;
-    -webkit-user-select: none;
 }
 
 .row::after {
@@ -253,17 +259,19 @@ h2 span {
     height: auto;
 }
 
-.about_text{
+.about_text {
     margin-bottom: 2.5rem;
 }
 
-.cv_button, .project_info a{
+.cv_button,
+.project_info a {
     padding: 12px 24px;
     background-color: var(--clr-primary);
-    color: var(--clr-light);   
+    color: var(--clr-light);
 }
 
-.cv_button:hover, .project_info a:hover{
+.cv_button:hover,
+.project_info a:hover {
     background-color: var(--clr-red);
 }
 
@@ -274,23 +282,23 @@ h2 span {
     color: var(--clr-light);
 }
 
-.skill_wrapper h3{
+.skill_wrapper h3 {
     text-align: center;
     font-size: 1.5rem;
     margin: 2rem 0;
     overflow: hidden;
 }
 
-.skill_wrapper h3:first-child{
+.skill_wrapper h3:first-child {
     margin-top: 0;
 }
 
-.skill_wrapper h3 span{
+.skill_wrapper h3 span {
     position: relative;
     display: inline-block;
 }
 
-.skill_wrapper h3 span::before{
+.skill_wrapper h3 span::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -299,7 +307,7 @@ h2 span {
     width: 600px;
 }
 
-.skill_wrapper h3 span::after{
+.skill_wrapper h3 span::after {
     content: "";
     position: absolute;
     background-color: var(--clr-light);
@@ -351,7 +359,7 @@ h2 span {
     color: #f2db1d;
 }
 
-.fa-react{
+.fa-react {
     color: #00d4f9;
 }
 
@@ -371,13 +379,13 @@ h2 span {
     font-size: 1.1rem;
 }
 
-.canva img{
+.canva img {
     width: 90px;
     height: 90px;
     margin-bottom: 0;
 }
 
-.canva p{
+.canva p {
     margin-top: -2.1rem;
 }
 
@@ -453,7 +461,7 @@ h2 span {
     gap: 1rem;
 }
 
-.project_info a{
+.project_info a {
     background-color: var(--clr-light);
     color: var(--clr-primary);
 }
@@ -628,13 +636,13 @@ h2 span {
         font-size: 1.5rem;
     }
 
- #hero h1 span::before {
-    text-shadow: 0 -6rem 5px rgba(0, 0, 0, .2);
-}
+    #hero h1 span::before {
+        text-shadow: 0 -6rem 5px rgba(0, 0, 0, .2);
+    }
 
-#hero h1 span::after {
-    text-shadow: 0 6rem 5px rgba(0, 0, 0, .2);
-}
+    #hero h1 span::after {
+        text-shadow: 0 6rem 5px rgba(0, 0, 0, .2);
+    }
 
     h2 {
         font-size: 2rem;
