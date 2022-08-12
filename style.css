@@ -5,7 +5,7 @@
 :root {
     --clr-primary: #16202a;
     --clr-light: #f8f9fa;
-    --clr-gray: #bbbbbb;
+    --clr-gray: #818181;
     --big-font-size: 6rem;
     --h2-font-size: 3rem;
     --font-bold: 700;
@@ -116,7 +116,7 @@ aside {
 }
 
 .nav_menu a:hover {
-    background-color: var(--clr-gray);
+    background-color: rgba(0, 0, 0, .2);
     color: var(--clr-primary);
 }
 
@@ -204,7 +204,9 @@ h2 {
 }
 
 h2 span {
-    color: var(--clr-gray);
+    /* color: #2db4da; */
+    color: #cd2949;
+    /* color: #ebcc36; */
 }
 
 .about_img {
@@ -254,6 +256,41 @@ h2 span {
 .contact {
     background-color: var(--clr-primary);
     color: var(--clr-light);
+}
+
+.skill_wrapper h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.skill_wrapper h3:first-child{
+    margin-top: 0;
+}
+
+.skill_wrapper h3 span{
+    position: relative;
+    display: inline-block;
+}
+
+.skill_wrapper h3 span::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 110%;
+    border-bottom: 1px solid var(--clr-light);
+    width: 600px;
+}
+
+.skill_wrapper h3 span::after{
+    content: "";
+    position: absolute;
+    background-color: var(--clr-light);
+    top: 50%;
+    left: 110%;
+    border-bottom: 1px solid var(--clr-light);
+    width: 500px;
 }
 
 .skill_wrapper>div {
