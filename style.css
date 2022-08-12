@@ -654,6 +654,10 @@ h2 span {
         height: 295px !important;
     }
 
+    .column>div {
+        width: 90%;
+    }
+
     .skill {
         width: 150px;
         height: 150px;
