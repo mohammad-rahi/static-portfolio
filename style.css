@@ -6,13 +6,14 @@
     --clr-primary: #16202a;
     --clr-light: #f8f9fa;
     --clr-gray: #818181;
+    --clr-red: #cd2949;
     --big-font-size: 6rem;
     --h2-font-size: 3rem;
     --font-bold: 700;
     --font-normal: 400;
     --max-width: 1170px;
     --fixed-width: 600px;
-    --transition: all .3s linear;
+    --transition: all .2s linear;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -63,6 +64,7 @@ h2 {
 
 a {
     text-decoration: none;
+    transition: var(--transition);
 }
 
 img {
@@ -107,7 +109,6 @@ aside {
     place-content: center;
     font-size: 1.1rem;
     color: var(--clr-primary);
-    transition: all .3s linear;
 }
 
 .nav_menu a i {
@@ -116,7 +117,7 @@ aside {
 }
 
 .nav_menu a:hover {
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .15);
     color: var(--clr-primary);
 }
 
@@ -205,7 +206,7 @@ h2 {
 
 h2 span {
     /* color: #2db4da; */
-    color: #cd2949;
+    color: var(--clr-red);
     /* color: #ebcc36; */
 }
 
@@ -226,7 +227,7 @@ h2 span {
     width: 50%;
     float: left;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
     align-items: center;
     line-height: 28px;
     user-select: none;
@@ -247,8 +248,23 @@ h2 span {
     margin-left: 2.5rem;
 }
 
-.column div {
+.column>div {
     width: 80%;
+    height: auto;
+}
+
+.about_text{
+    margin-bottom: 2.5rem;
+}
+
+.cv_button, .project_info a{
+    padding: 12px 24px;
+    background-color: var(--clr-primary);
+    color: var(--clr-light);   
+}
+
+.cv_button:hover, .project_info a:hover{
+    background-color: var(--clr-red);
 }
 
 /*===== Skills =====*/
@@ -321,7 +337,6 @@ h2 span {
 .skill i {
     font-size: 6rem;
     margin-bottom: 0;
-    transition: var(--transition);
 }
 
 .fa-html5 {
@@ -432,46 +447,15 @@ h2 span {
 }
 
 .project_links {
-    margin: 2rem 0 0 1.5rem;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.project_info a {
+.project_info a{
     background-color: var(--clr-light);
     color: var(--clr-primary);
-    border: 2px solid transparent;
-    padding: 10px 20px;
-    margin-right: 1rem;
-    border-radius: 56px;
-    font-weight: var(--font-bold);
-    font-size: 14px !important;
-    transition: var(--transition);
-    user-select: none;
-    -webkit-user-select: none;
-}
-
-.project_info a i {
-    margin-left: .5rem;
-}
-
-.project_info a:hover {
-    background-color: transparent;
-    color: var(--clr-light);
-    border-color: var(--clr-light);
-}
-
-.project_links a:last-child {
-    background-color: transparent;
-    color: var(--clr-light);
-    border-color: var(--clr-light);
-}
-
-.project_links a:last-child:hover {
-    background-color: var(--clr-light);
-    color: var(--clr-primary);
-    border-color: transparent;
 }
 
 /*===== Contact =====*/
