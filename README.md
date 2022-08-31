@@ -12,7 +12,7 @@ I love to read articles.
 - 👥 I actively manage a Facebok page - https://facebook.com/techsheet21
 
 ### Skills
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,sass,git,github,vscode,react,python&perline=5)](#)
+[![My Skills](https://skillicons.dev/icons?i=js,react,firebase,html,css,bootstrap,sass,git,github,vscode&perline=5)](#)
 
 ### Keep in Touch
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/mohammadrahi003)
