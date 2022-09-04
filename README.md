@@ -1,9 +1,7 @@
 ![Mohammad Rahi](https://github.com/mohammad-rahi/mohammad-rahi/blob/main/assets/img/readme_img.jfif)
 ## Hi there 👋, Greetings from Mohammad Rahi
 
-I'm a skilled front-end developer. I'm passionate to work with JavaScript, HTML5, CSS3, and ReactJS. With these front-end technologies, I can design any type of website as you like.
-
-I love to read articles. 
+I'm a skilled front-end developer. I'm passionate to work with JavaScript, HTML5, CSS3, and ReactJS. I love to read articles. 
 
 - 🌱 I’m currently learning many things, I believe that everyday is a learning opportunity.
 - 📫 How to reach me: mohammadrahi003@gmail.com
