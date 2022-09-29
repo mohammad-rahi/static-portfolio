@@ -15,7 +15,8 @@ I'm a skilled front-end developer. I'm passionate to work with ReactJS, Redux, N
 ### Keep in Touch
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/mohammadrahi003)
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/mohammad-rahi/)
-[![GitHub](https://skillicons.dev/icons?i=stackoverflow)](https://stackoverflow.com/users/16542466/mohammad-rahi)
+[![StackOverflow](https://skillicons.dev/icons?i=stackoverflow)](https://stackoverflow.com/users/16542466/mohammad-rahi)
+[Medium](https://medium.com/@mohammadrahi)
 
 Thank you! :-)
 
